@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% extends "core/base.html" %}
+{% block body_block %}
+
+<form>
+    {{ form.as_p }}
+     <input type="submit" value="save"/>
+    </form>
+
+    <div class="txtb">
+      <label>Address :</label>
+      <input type="address" name="" value="" placeholder="Enter Your Phone Number">
+    </div>
+ {% endblock %}

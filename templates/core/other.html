@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% extends "core/base.html" %}
+{% block body_block %}
+  <div class="contact-form">
+    <h1>Contact Us</h1>
+    <div class="txtb">
+      <label>First_Name :</label>
+      <input type="text" name="" value="" placeholder="Enter Your First_name">
+    </div>
+<div class="txtb">
+      <label>Last_name :</label>
+      <input type="text" name="" value="" placeholder="Enter Your Last_name">
+    </div>
+<div class="txtb">
+      <label>Email :</label>
+      <input type="email" name="" value="" placeholder="Enter Your Email">
+    </div>
+<div class="txtb">
+      <label>Phone :</label>
+      <input type="Phone" name="" value="" placeholder="Enter Your Phone">
+    </div>
+<form action="  0">
+  <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
+
+    <div class="txtb">
+      <label>Gender :</label>
+      <input type="choices" name="" value="" placeholder="Enter Your gender">
+    </div>
+
+    <div class="txtb">
+      <label>Address :</label>
+      <input type="address" name="" value="" placeholder="Enter Your Phone Number">
+    </div>
+
+    <a class="btn">Send</a>
+  </div>
+
+ {% endblock %}
